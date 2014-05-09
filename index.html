@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<title>Hot || Cold</title>
+
+		<!-- Meta Tags -->
+		<meta charset="utf-8"/>
+		
+			
+		
+		<!-- Stylesheets -->
+		
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,900italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="styles/style.css"/>
+		<link rel="stylesheet" href="styles/jquery-ui.custom.css" />
+		<link rel="stylesheet" href="styles/jquery.ui.slider.css" />
+
+		<!-- JavaScript -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		
+		<script src="js/jquery-ui.custom.min.js"></script>
+		
+		<script type="text/javascript" src="js/app.js"></script>
+		<script src="js/jquery.ui.core.js"></script>
+		<script src="js/jquery.ui.slider.js"></script>
+	
+	</head>
+	<body>
+		
+		<header> <!--Header -->
+
+			<!-- Top Navigation -->
+			<nav> 
+				<ul class="clearfix">
+					<li><a class="what" href="#">How does this work?</a></li>
+					<li><a class="new" href="#"></a></li>
+				</ul>
+			</nav>
+			
+			<!-- Modal Information Box -->
+			<div class="overlay" id="modal">
+				<div class="content">
+					<h3>How does this work?</h3>
+					<div>
+						<p>A lot goes into choosing the proper career for you. Our tool is only made from averages, but hopefully it can give you an idea of what careers might be good fits. </p>
+						<p style="padding: 5px;">Indicators</p>
+						<ul>
+							<li>Average Pay is the amount that a mid-career worker can expect to make.</li>
+							<li>Flexibility</li>
+							<li>Education</li>
+						</ul>
+						<p>So, Are you ready?</p>
+						<a class="close" href="#">Lets do it!</a>
+					</div>
+					<div id="signature">Designed by Merrill Cook</div> 
+				</div>
+				 
+			</div>
+
+			
+			<h1>WHAT CAREER IS RIGHT FOR ME?</h1>
+
+		</header>
+
+		<section class="game"> 
+			
+			<h2 id="feedback">What's important to you? </h2>
+			<div id="verticalSliders">
+				<div id="sliders" class="ui-slider-range ui-widget-header ui-corner-all" >
+				</div>
+				<div id="slider1" class="ui-slider-range ui-widget-header ui-corner-all" >
+				</div>
+			
+				<div id="slider2" class="ui-slider-range ui-widget-header ui-corner-all" >
+				</div>
+				<div id="slider3" class="ui-slider-range ui-widget-header ui-corner-all" >
+				</div>
+			</div>
+			
+			<div id="horizontalSliders">
+				<div id="slider4" class="ui-slider-range ui-widget-header ui-corner-all" >
+				</div>
+				 <div id="slider5" class="ui-slider-range ui-widget-header ui-corner-all" >
+				</div>
+			</div>
+			<button type="submit" id="submitter"><strong>CHECK RESULTS</strong></button>
+			
+			<ul id="guessList" class="guessBox clearfix">
+
+			</ul>
+
+		</section>
+		<div class="result">
+			<h2>You should be a..</h2>
+			<button type="submit" id="exitSubmit">TRY AGAIN</button>
+		
+		</div>
+	</body>
+</html>
